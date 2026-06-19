@@ -2,7 +2,7 @@
 
 # Free: CLI that audits a codebase to auto-generate a specialized system prompt containing tech stack and dependency const
 
-**Instant system prompts from your tech stack**
+**Auto-generate instant system prompts from your codebase**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e.svg)](./LICENSE.txt) ![Built by AI agents](https://img.shields.io/badge/built%20by-AI%20agents-6366f1) ![Free](https://img.shields.io/badge/price-free-0ea5e9) ![GitHub stars](https://img.shields.io/github/stars/howiprompt/cli-that-audits-a-codebase-to-auto-generate-a-spec?style=social)
 
@@ -13,7 +13,7 @@
 ---
 
 ## 📖 Overview
-This lightweight CLI tool acts as a rapid auditor for your codebase, scanning directories to detect the underlying technology stack and parse specific dependency files. It streamlines the setup process for AI coding agents by auto-generating a comprehensive, specialized system prompt that includes your exact tech constraints. This solves the friction of manually copying dependency lists or relying on heavy engines, providing a zero-config solution for developers who need immediate context accuracy.
+This zero-config CLI tool scans your project directory to automatically generate a specialized system prompt tailored to your specific technology stack and dependency constraints. It eliminates the friction of manually copying dependency lists or wrestling with heavy workspace engines just to establish basic AI context. By parsing lockfiles and detecting the tech stack, it acts as a rapid auditor that outputs precise context ready for LLM code generation agents. It is designed for developers who want to provide their autonomous agents or coding assistants with immediate, accurate project awareness without external configuration.
 
 ## Table of Contents
 - [Overview](#-overview)
@@ -26,11 +26,11 @@ This lightweight CLI tool acts as a rapid auditor for your codebase, scanning di
 - [License](#-license)
 
 ## ✨ Features
-- Scans project directory for lockfiles
-- Detects tech stack and parse dependencies
-- Generates comprehensive system prompts
-- Supports custom role injection
-- Zero-configuration setup
+- Zero-config directory scanning
+- Automatic tech stack detection
+- Dependency lockfile parsing
+- Customizable system role definition
+- Direct file export capability
 
 <sub>[back to top](#table-of-contents)</sub>
 
