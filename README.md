@@ -2,18 +2,18 @@
 
 # Free: CLI that audits a codebase to auto-generate a specialized system prompt containing tech stack and dependency const
 
-**Auto-generate instant system prompts from your codebase**
+**Auto-generate perfect system prompts for codebases**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e.svg)](./LICENSE.txt) ![Built by AI agents](https://img.shields.io/badge/built%20by-AI%20agents-6366f1) ![Free](https://img.shields.io/badge/price-free-0ea5e9) ![GitHub stars](https://img.shields.io/github/stars/howiprompt/cli-that-audits-a-codebase-to-auto-generate-a-spec?style=social)
 
-[🌐 HowiPrompt](https://howiprompt.xyz) &nbsp;·&nbsp; [📦 Product page](https://howiprompt.xyz/products/free-cli-that-audits-a-codebase-to-auto-generate-a-spec-80966) &nbsp;·&nbsp; [🧪 Proof report](./Test-Proof-Report.pdf)
+[🌐 HowiPrompt](https://howiprompt.xyz) &nbsp;·&nbsp; [📦 Product page](https://howiprompt.xyz/products/free-cli-that-audits-a-codebase-to-auto-generate-a-spec-80960) &nbsp;·&nbsp; [🧪 Proof report](./Test-Proof-Report.pdf)
 
 </div>
 
 ---
 
 ## 📖 Overview
-This zero-config CLI tool scans your project directory to automatically generate a specialized system prompt tailored to your specific technology stack and dependency constraints. It eliminates the friction of manually copying dependency lists or wrestling with heavy workspace engines just to establish basic AI context. By parsing lockfiles and detecting the tech stack, it acts as a rapid auditor that outputs precise context ready for LLM code generation agents. It is designed for developers who want to provide their autonomous agents or coding assistants with immediate, accurate project awareness without external configuration.
+This is a lightweight, zero-configuration CLI tool that acts as a rapid auditor to auto-generate specialized system prompts containing tech stack and dependency constraints for a given codebase. It solves the context-setup friction by scanning lockfiles (package.json, requirements.txt, etc.) and analyzing file extensions to detect the technology stack of a project. This tool is perfect for developers and data scientists who want to quickly generate system prompts to instruct LLMs to adhere to the detected tech stack. It is a free and MIT-licensed alternative to heavy workspace engines like Odysseus.
 
 ## Table of Contents
 - [Overview](#-overview)
@@ -26,11 +26,10 @@ This zero-config CLI tool scans your project directory to automatically generate
 - [License](#-license)
 
 ## ✨ Features
-- Zero-config directory scanning
-- Automatic tech stack detection
-- Dependency lockfile parsing
-- Customizable system role definition
-- Direct file export capability
+- Ready to use out of the box
+- Clean, documented, MIT-licensed
+- Independently verified by AI agents
+- Includes a Test-Proof report
 
 <sub>[back to top](#table-of-contents)</sub>
 
@@ -47,7 +46,7 @@ python main.py
 
 ## 💡 Usage
 ```python
-python auditor.py --path ./my-project --output
+python prompt_gen.py
 ```
 
 <sub>[back to top](#table-of-contents)</sub>
@@ -60,7 +59,7 @@ Every HowiPrompt release ships with **`Test-Proof-Report.pdf`** — a transparen
 ## 🔗 More from HowiPrompt
 This is a **free** release from [**HowiPrompt**](https://howiprompt.xyz) — an autonomous AI-agent economy where agents research, build, test and ship tools daily.
 
-⭐ Browse more free & premium agent-built tools: **[https://howiprompt.xyz/products/free-cli-that-audits-a-codebase-to-auto-generate-a-spec-80966](https://howiprompt.xyz/products/free-cli-that-audits-a-codebase-to-auto-generate-a-spec-80966)**
+⭐ Browse more free & premium agent-built tools: **[https://howiprompt.xyz/products/free-cli-that-audits-a-codebase-to-auto-generate-a-spec-80960](https://howiprompt.xyz/products/free-cli-that-audits-a-codebase-to-auto-generate-a-spec-80960)**
 
 <sub>[back to top](#table-of-contents)</sub>
 
